@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.grid-contaiiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "header header header header"
+      "nosotros nosotros nosotros nosotros"
+      "footer footer footer footer";
+  }
+  
+  header { grid-area: header; }
+  
+  .nosotros { grid-area: nosotros; }
+  
+  footer { grid-area: footer; }
+  
+
+header{
+    display: fixed;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    background-color: blueviolet;
+    padding: 10px 10px 10px 10px;
+}
+
+.barra-sup{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+    justify-content: space-between;
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    list-style: none;
+}
+
+.main li {
+    display: flex;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+
+.main a {    
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: 'Salsa', cursive;
+    background-color: blueviolet;
+}
+
+h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+#servicios img{
+    width: 25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: aliceblue;
+}
+
+
+
+.reiki, .tarot, .astrologia {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.p-reiki, .p-tarot, .p-astrologia, .p-nosotros {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-reiki, .title-tarot, .title-astrologia, .title-nosotros {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}  
+
+.text-reiki, .text-tarot, .text-astrologia {
+    margin-top: 10px;
+}
+
+
+
+.p-productos {
+    font-family: 'Noto Serif', serif;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 30px;
+    margin-left: 10px;    
+}
+.line1, .line2 {
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.p-productos p {
+    text-align: center;
+
+}
+.p-productos img {
+    width: 200px;
+    margin: 15px 15px 15px 20px ;
+}
+
+
+footer{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-color: black;
+}
+
+footer img {
+    width: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+ .redes-sociales {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.instagram-logo, .facebook-logo {
+    background-color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.copyright { 
+    color: white;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 7px;
+}
+
+.botonwap{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+#contactate {
+    background-color: #F2F2F2;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    margin-top: 10px;
+    margin-right: 250px;
+    margin-left: 250px;
+    padding-bottom: 20px;
+}
+
+#contactate h3 {
+    color: #666;
+    font-family: 'Noto Serif', serif;
+    padding-top: 10px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+
+input[type="sumbit"] {
+    margin-bottom: 10px;
+    color: #666;
+    font-family: 'Noto Serif', serif;
+}
+
+#contactate form{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    writing-mode: horizontal-tb;
+    padding-block: 1px;
+    padding-inline: 2px;
+
+
+}
