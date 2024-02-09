@@ -6,71 +6,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&family=Raleway:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-.grid-contaiiner {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-      "header header header header"
-      "nosotros nosotros nosotros nosotros"
-      "footer footer footer footer";
-  }
-  
-  header { grid-area: header; }
-  
-  .nosotros { grid-area: nosotros; }
-  
-  footer { grid-area: footer; }
-  
 
-header{
-    display: fixed;
-    justify-content: space-between;
-    top: 0;
-    right: 0;
+
+header { 
     background-color: blueviolet;
-    padding: 10px 10px 10px 10px;
+    margin: 0px;
+}
+  
+#nosotros { 
+    grid-area: nosotros; 
 }
 
-.barra-sup{
-    display: flex;
-    justify-content: space-between;
+#servicios {
+    grid-area: servicios;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
+#productos {
+    grid-area: productos;
+    font-family: 'Raleway', sans-serif;
+}
+  
+footer { 
+    margin: 0px;
+    background-color: black;
 }
 
-.main{
-    display: flex;
-    font-family: 'Nunito', sans-serif;
-    justify-content: space-between;
+.collapse {
+    justify-content: end;
+}
+
+.logo{
+    font-family: 'Salsa', cursive;
     color: white;
-    background-color: blueviolet;
-    text-align: center;
+    text-decoration: none;
+}
+.navbar{
+    color: white;
+    text-decoration: none;
     list-style: none;
 }
 
-.main li {
-    display: flex;
-    text-align: center;
-    padding-right: 50px;
-    padding-left: 50px;
 
-}
 
-.main a {    
-    text-decoration: none;
+.nav-item{
+    font-family: 'Nunito', sans-serif;
     color: white;
-    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    
 }
+
 
 
 h1 {
@@ -78,16 +68,9 @@ h1 {
     background-color: blueviolet;
 }
 
-h1 a {
-    text-decoration: none;
-    color: white;
-}
 
 #servicios img{
-    width: 25%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    width: 18%;
     background-color: aliceblue;
 }
 
@@ -116,58 +99,47 @@ h1 a {
     margin-top: 10px;
 }
 
-
-
-.p-productos {
-    font-family: 'Noto Serif', serif;
-    font-family: 'Raleway', sans-serif;
-    margin-bottom: 30px;
-    margin-left: 10px;    
+.card {
+    margin: 10px 10px 10px 10px;
 }
-.line1, .line2 {
+
+
+.card img {
     display: flex;
     justify-content: center;
-    margin-right: 0px;
-    margin-left: 0px;
-}
-.p-productos p {
-    text-align: center;
-
-}
-.p-productos img {
-    width: 200px;
-    margin: 15px 15px 15px 20px ;
+    width: 65%;
+    margin: 25px 50px 5px 50px;
 }
 
-
-footer{
-    justify-content: space-around;
-    align-items: center;
+.card-text {
     display: flex;
-    background-color: black;
+    justify-content: center;
 }
 
-footer img {
-    width: 30px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
+
+
  .redes-sociales {
     display: flex;
-    justify-content: space-around;
+    padding-top: 10px;
     padding-right: 20px;
+    padding-bottom: 10px;
     padding-left: 20px;
+    list-style: none;
 }
 
 
 .instagram-logo, .facebook-logo {
+    width: 30%;
     background-color: black;
     padding-right: 10px;
     padding-left: 10px;
-
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
 }
 
 .copyright { 
+    grid-area: copy;
     color: white;
     text-align: center;
     font-family: 'Noto Serif', serif;
@@ -175,11 +147,13 @@ footer img {
     margin-bottom: 7px;
 }
 
-.botonwap{
+.botonwap img{
+    width: 4%;
     position: fixed;
-    right: 10px;
-    bottom: 10px;
+    right: 5px;
+    bottom: 5px;
 }
+
 
 #contactate {
     background-color: #F2F2F2;
@@ -219,3 +193,9 @@ input[type="sumbit"] {
 
 
 }
+
+/*Mobile*/
+@media only screen and (max-width: 480px) {
+
+
+    }
