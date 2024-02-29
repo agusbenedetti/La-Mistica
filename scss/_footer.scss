@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&family=Raleway:wght@300&display=swap');
+
+footer {
+
+    background-color: black;
+    padding-top: 20px;
+    .redes-sociales {
+        display: flex;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        list-style: none;
+
+        .instagram-logo, .facebook-logo {
+            width: 30%;
+            background-color: black;
+            padding-right: 10px;
+            padding-left: 10px;
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+        }
+    }
+
+    .copyright { 
+        margin-top: 10px;
+        color: white;
+        font-family: 'Noto Serif', serif;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 7px;
+    }    
+    
+    .botonwap img{
+        width: 4%;
+        position: fixed;
+        right: 5px;
+        bottom: 5px;
+    }
+}
+

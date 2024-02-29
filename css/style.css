@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Salsa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&family=Raleway:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: blueviolet;
+  margin: 0px;
+}
+header h1 {
+  font-family: "Salsa", cursive;
+  background-color: blueviolet;
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+header .collapse {
+  justify-content: end;
+}
+header .collapse .navbar {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+header .collapse .navbar .nav-item {
+  font-family: "Nunito", sans-serif;
+  color: white;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+h1 {
+  font-family: "Salsa", cursive;
+  background-color: blueviolet;
+}
+
+#nosotros {
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+#servicios {
+  margin-left: 10px;
+}
+#servicios img {
+  width: 5%;
+  background-color: white;
+}
+#servicios .reiki, #servicios .tarot, #servicios .astrologia {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#servicios .reiki .p-reiki, #servicios .reiki .p-tarot, #servicios .reiki .p-astrologia, #servicios .reiki .p-nosotros, #servicios .tarot .p-reiki, #servicios .tarot .p-tarot, #servicios .tarot .p-astrologia, #servicios .tarot .p-nosotros, #servicios .astrologia .p-reiki, #servicios .astrologia .p-tarot, #servicios .astrologia .p-astrologia, #servicios .astrologia .p-nosotros {
+  margin-left: 30px;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+#servicios .reiki .p-reiki .title-reiki, #servicios .reiki .p-reiki .title-tarot, #servicios .reiki .p-reiki .title-astrologia, #servicios .reiki .p-reiki .title-nosotros, #servicios .reiki .p-tarot .title-reiki, #servicios .reiki .p-tarot .title-tarot, #servicios .reiki .p-tarot .title-astrologia, #servicios .reiki .p-tarot .title-nosotros, #servicios .reiki .p-astrologia .title-reiki, #servicios .reiki .p-astrologia .title-tarot, #servicios .reiki .p-astrologia .title-astrologia, #servicios .reiki .p-astrologia .title-nosotros, #servicios .reiki .p-nosotros .title-reiki, #servicios .reiki .p-nosotros .title-tarot, #servicios .reiki .p-nosotros .title-astrologia, #servicios .reiki .p-nosotros .title-nosotros, #servicios .tarot .p-reiki .title-reiki, #servicios .tarot .p-reiki .title-tarot, #servicios .tarot .p-reiki .title-astrologia, #servicios .tarot .p-reiki .title-nosotros, #servicios .tarot .p-tarot .title-reiki, #servicios .tarot .p-tarot .title-tarot, #servicios .tarot .p-tarot .title-astrologia, #servicios .tarot .p-tarot .title-nosotros, #servicios .tarot .p-astrologia .title-reiki, #servicios .tarot .p-astrologia .title-tarot, #servicios .tarot .p-astrologia .title-astrologia, #servicios .tarot .p-astrologia .title-nosotros, #servicios .tarot .p-nosotros .title-reiki, #servicios .tarot .p-nosotros .title-tarot, #servicios .tarot .p-nosotros .title-astrologia, #servicios .tarot .p-nosotros .title-nosotros, #servicios .astrologia .p-reiki .title-reiki, #servicios .astrologia .p-reiki .title-tarot, #servicios .astrologia .p-reiki .title-astrologia, #servicios .astrologia .p-reiki .title-nosotros, #servicios .astrologia .p-tarot .title-reiki, #servicios .astrologia .p-tarot .title-tarot, #servicios .astrologia .p-tarot .title-astrologia, #servicios .astrologia .p-tarot .title-nosotros, #servicios .astrologia .p-astrologia .title-reiki, #servicios .astrologia .p-astrologia .title-tarot, #servicios .astrologia .p-astrologia .title-astrologia, #servicios .astrologia .p-astrologia .title-nosotros, #servicios .astrologia .p-nosotros .title-reiki, #servicios .astrologia .p-nosotros .title-tarot, #servicios .astrologia .p-nosotros .title-astrologia, #servicios .astrologia .p-nosotros .title-nosotros {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#servicios .reiki .p-reiki .text-reiki, #servicios .reiki .p-reiki .text-tarot, #servicios .reiki .p-reiki .text-astrologia, #servicios .reiki .p-tarot .text-reiki, #servicios .reiki .p-tarot .text-tarot, #servicios .reiki .p-tarot .text-astrologia, #servicios .reiki .p-astrologia .text-reiki, #servicios .reiki .p-astrologia .text-tarot, #servicios .reiki .p-astrologia .text-astrologia, #servicios .reiki .p-nosotros .text-reiki, #servicios .reiki .p-nosotros .text-tarot, #servicios .reiki .p-nosotros .text-astrologia, #servicios .tarot .p-reiki .text-reiki, #servicios .tarot .p-reiki .text-tarot, #servicios .tarot .p-reiki .text-astrologia, #servicios .tarot .p-tarot .text-reiki, #servicios .tarot .p-tarot .text-tarot, #servicios .tarot .p-tarot .text-astrologia, #servicios .tarot .p-astrologia .text-reiki, #servicios .tarot .p-astrologia .text-tarot, #servicios .tarot .p-astrologia .text-astrologia, #servicios .tarot .p-nosotros .text-reiki, #servicios .tarot .p-nosotros .text-tarot, #servicios .tarot .p-nosotros .text-astrologia, #servicios .astrologia .p-reiki .text-reiki, #servicios .astrologia .p-reiki .text-tarot, #servicios .astrologia .p-reiki .text-astrologia, #servicios .astrologia .p-tarot .text-reiki, #servicios .astrologia .p-tarot .text-tarot, #servicios .astrologia .p-tarot .text-astrologia, #servicios .astrologia .p-astrologia .text-reiki, #servicios .astrologia .p-astrologia .text-tarot, #servicios .astrologia .p-astrologia .text-astrologia, #servicios .astrologia .p-nosotros .text-reiki, #servicios .astrologia .p-nosotros .text-tarot, #servicios .astrologia .p-nosotros .text-astrologia {
+  margin-top: 10px;
+}
+
+#productos {
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+#productos h2 {
+  font-family: "Ubuntu", sans-serif;
+}
+#productos .card {
+  margin: 10px 10px 10px 10px;
+}
+#productos .card img {
+  display: flex;
+  justify-content: center;
+  width: 65%;
+  margin: 25px 50px 5px 50px;
+}
+#productos .card .card-text {
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+}
+
+footer {
+  background-color: black;
+  padding-top: 20px;
+}
+footer .redes-sociales {
+  display: flex;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  list-style: none;
+}
+footer .redes-sociales .instagram-logo, footer .redes-sociales .facebook-logo {
+  width: 30%;
+  background-color: black;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+footer .copyright {
+  margin-top: 10px;
+  color: white;
+  font-family: "Noto Serif", serif;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 7px;
+}
+footer .botonwap img {
+  width: 4%;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+}
+
+#contactate {
+  background-color: #F2F2F2;
+  border-top: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+  margin-top: 10px;
+  margin-right: 250px;
+  margin-bottom: 15px;
+  margin-left: 250px;
+  padding-bottom: 20px;
+}
+#contactate h3 {
+  color: #666;
+  font-family: "Noto Serif", serif;
+  padding-top: 10px;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+#contactate input[type=sumbit] {
+  margin-bottom: 10px;
+  color: #666;
+  font-family: "Noto Serif", serif;
+}
+#contactate form {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  writing-mode: horizontal-tb;
+  padding-block: 1px;
+  padding-inline: 2px;
+}
+
+/*# sourceMappingURL=style.css.map */

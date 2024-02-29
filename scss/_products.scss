@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+#productos {
+    margin-bottom: 15px;
+    margin-left: 10px;
+
+    h2 {
+        font-family: "Ubuntu", sans-serif;
+    }
+
+    .card {
+        margin: 10px 10px 10px 10px;
+    
+        img {
+            display: flex;
+            justify-content: center;
+            width: 65%;
+            margin: 25px 50px 5px 50px;
+        }
+    
+        .card-text {
+            display: flex;
+            justify-content: center;
+            font-family: "Raleway", sans-serif;
+        }
+    }
+
+}
+
+
+
