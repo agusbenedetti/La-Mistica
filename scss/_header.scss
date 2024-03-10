@@ -1,31 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+@import "variables";
 
 header { 
-    background-color: blueviolet;
+    background-color: $color-header;
     margin: 0px;
+    z-index: 1;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+
 
     
     h1 {
-        font-family: 'Salsa', cursive;
-        background-color: blueviolet;
-        color: white;
+        font-family: $type-logo;
+        background-color: $color-header;
+        color:$color-letras-header;
         text-decoration: none;
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     .collapse {
         justify-content: end;
+        margin-right: 20px;
         
         .navbar{
-            color: white;
+            color: $color-letras-header;
             text-decoration: none;
             list-style: none;
-
             .nav-item{
-                font-family: 'Nunito', sans-serif;
-                color: white;
+                font-family: $type-main;
+                color: $color-letras-header;
                 margin-right: 10px;
                 margin-left: 10px;
                 

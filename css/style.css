@@ -13,19 +13,27 @@
   margin: 0;
 }
 
+/*Colores*/
+/*Lineas*/
+/*Tipografias*/
 header {
-  background-color: blueviolet;
+  background-color: #9641e5;
   margin: 0px;
+  z-index: 1;
+  position: sticky;
+  top: 0px;
+  width: 100%;
 }
 header h1 {
   font-family: "Salsa", cursive;
-  background-color: blueviolet;
+  background-color: #9641e5;
   color: white;
   text-decoration: none;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 header .collapse {
   justify-content: end;
+  margin-right: 20px;
 }
 header .collapse .navbar {
   color: white;
@@ -44,19 +52,26 @@ h1 {
   background-color: blueviolet;
 }
 
+/*Colores*/
+/*Lineas*/
+/*Tipografias*/
 #nosotros {
   font-family: "Ubuntu", sans-serif;
   margin-top: 15px;
   margin-bottom: 10px;
   margin-left: 10px;
 }
+#nosotros .p-nosotros {
+  margin-left: 30px;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}
 
+/*Colores*/
+/*Lineas*/
+/*Tipografias*/
 #servicios {
   margin-left: 10px;
-}
-#servicios img {
-  width: 5%;
-  background-color: white;
 }
 #servicios .reiki, #servicios .tarot, #servicios .astrologia {
   margin-top: 40px;
@@ -67,6 +82,15 @@ h1 {
   margin-top: 10px;
   font-family: "Montserrat", sans-serif;
 }
+#servicios .reiki .p-reiki img, #servicios .reiki .p-tarot img, #servicios .reiki .p-astrologia img, #servicios .reiki .p-nosotros img, #servicios .tarot .p-reiki img, #servicios .tarot .p-tarot img, #servicios .tarot .p-astrologia img, #servicios .tarot .p-nosotros img, #servicios .astrologia .p-reiki img, #servicios .astrologia .p-tarot img, #servicios .astrologia .p-astrologia img, #servicios .astrologia .p-nosotros img {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  background-color: white;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
 #servicios .reiki .p-reiki .title-reiki, #servicios .reiki .p-reiki .title-tarot, #servicios .reiki .p-reiki .title-astrologia, #servicios .reiki .p-reiki .title-nosotros, #servicios .reiki .p-tarot .title-reiki, #servicios .reiki .p-tarot .title-tarot, #servicios .reiki .p-tarot .title-astrologia, #servicios .reiki .p-tarot .title-nosotros, #servicios .reiki .p-astrologia .title-reiki, #servicios .reiki .p-astrologia .title-tarot, #servicios .reiki .p-astrologia .title-astrologia, #servicios .reiki .p-astrologia .title-nosotros, #servicios .reiki .p-nosotros .title-reiki, #servicios .reiki .p-nosotros .title-tarot, #servicios .reiki .p-nosotros .title-astrologia, #servicios .reiki .p-nosotros .title-nosotros, #servicios .tarot .p-reiki .title-reiki, #servicios .tarot .p-reiki .title-tarot, #servicios .tarot .p-reiki .title-astrologia, #servicios .tarot .p-reiki .title-nosotros, #servicios .tarot .p-tarot .title-reiki, #servicios .tarot .p-tarot .title-tarot, #servicios .tarot .p-tarot .title-astrologia, #servicios .tarot .p-tarot .title-nosotros, #servicios .tarot .p-astrologia .title-reiki, #servicios .tarot .p-astrologia .title-tarot, #servicios .tarot .p-astrologia .title-astrologia, #servicios .tarot .p-astrologia .title-nosotros, #servicios .tarot .p-nosotros .title-reiki, #servicios .tarot .p-nosotros .title-tarot, #servicios .tarot .p-nosotros .title-astrologia, #servicios .tarot .p-nosotros .title-nosotros, #servicios .astrologia .p-reiki .title-reiki, #servicios .astrologia .p-reiki .title-tarot, #servicios .astrologia .p-reiki .title-astrologia, #servicios .astrologia .p-reiki .title-nosotros, #servicios .astrologia .p-tarot .title-reiki, #servicios .astrologia .p-tarot .title-tarot, #servicios .astrologia .p-tarot .title-astrologia, #servicios .astrologia .p-tarot .title-nosotros, #servicios .astrologia .p-astrologia .title-reiki, #servicios .astrologia .p-astrologia .title-tarot, #servicios .astrologia .p-astrologia .title-astrologia, #servicios .astrologia .p-astrologia .title-nosotros, #servicios .astrologia .p-nosotros .title-reiki, #servicios .astrologia .p-nosotros .title-tarot, #servicios .astrologia .p-nosotros .title-astrologia, #servicios .astrologia .p-nosotros .title-nosotros {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -75,7 +99,93 @@ h1 {
   margin-top: 10px;
 }
 
+/*Colores*/
+/*Lineas*/
+/*Tipografias*/
+#contactate {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#contactate form {
+  padding: 50px 55px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  text-align: center;
+  width: 470px;
+}
+#contactate .input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+#contactate h2 {
+  color: #283629;
+  font-size: 35px;
+}
+#contactate label {
+  color: #283629;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+#contactate input, #contactate textarea {
+  padding: 17px 25px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: #EDFFF0;
+  border: 2px solid #F0FAF1;
+  color: #283629;
+  outline: none;
+}
+#contactate input::placeholder, #contactate textarea::placeholder {
+  color: #b5cab6;
+}
+#contactate .form-txt {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+#contactate .form-txt a {
+  color: #76b2be;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+#contactate .btn {
+  font-size: 16px;
+  color: white;
+  border: 0;
+  border-radius: 25px;
+  background-color: #51D94C;
+  box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
+  cursor: pointer;
+}
+#contactate .btn:hover {
+  background-color: #50E048;
+}
+
+@media (max-width: 991px) {
+  #contactate {
+    padding: 30px;
+  }
+  #contactate form {
+    padding: 50px 30px;
+    width: 100%;
+  }
+  #contactate input {
+    padding: 15px;
+  }
+}
+/*Colores*/
+/*Lineas*/
+/*Tipografias*/
 #productos {
+  margin-top: 15px;
   margin-bottom: 15px;
   margin-left: 10px;
 }
@@ -97,8 +207,11 @@ h1 {
   font-family: "Raleway", sans-serif;
 }
 
+/*Colores*/
+/*Lineas*/
+/*Tipografias*/
 footer {
-  background-color: black;
+  background-color: #9641e5;
   padding-top: 20px;
 }
 footer .redes-sociales {
@@ -110,8 +223,7 @@ footer .redes-sociales {
   list-style: none;
 }
 footer .redes-sociales .instagram-logo, footer .redes-sociales .facebook-logo {
-  width: 30%;
-  background-color: black;
+  background-color: #9641e5;
   padding-right: 10px;
   padding-left: 10px;
   display: flex;
@@ -121,7 +233,6 @@ footer .redes-sociales .instagram-logo, footer .redes-sociales .facebook-logo {
 footer .copyright {
   margin-top: 10px;
   color: white;
-  font-family: "Noto Serif", serif;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 7px;
 }
@@ -132,38 +243,15 @@ footer .botonwap img {
   bottom: 5px;
 }
 
-#contactate {
-  background-color: #F2F2F2;
-  border-top: 1px solid grey;
-  border-right: 1px solid grey;
-  border-bottom: 1px solid grey;
-  border-left: 1px solid grey;
+/*Colores*/
+/*Lineas*/
+/*Tipografias*/
+#blogs {
+  margin-left: 50px;
+}
+#blogs iframe {
   margin-top: 10px;
-  margin-right: 250px;
-  margin-bottom: 15px;
-  margin-left: 250px;
-  padding-bottom: 20px;
-}
-#contactate h3 {
-  color: #666;
-  font-family: "Noto Serif", serif;
-  padding-top: 10px;
-  margin-top: 8px;
-  margin-bottom: 5px;
-  margin-left: 10px;
-}
-#contactate input[type=sumbit] {
   margin-bottom: 10px;
-  color: #666;
-  font-family: "Noto Serif", serif;
-}
-#contactate form {
-  margin-top: 5px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  writing-mode: horizontal-tb;
-  padding-block: 1px;
-  padding-inline: 2px;
 }
 
 /*# sourceMappingURL=style.css.map */

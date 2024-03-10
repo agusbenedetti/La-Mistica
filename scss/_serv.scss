@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import "variables";
 
 #servicios {
     margin-left: 10px;
+    
 
-    img {
-            width: 5%;
-            background-color: white;
-    }
+    
 
     .reiki, .tarot, .astrologia {
         margin-top: 40px;
@@ -15,7 +14,17 @@
         .p-reiki, .p-tarot, .p-astrologia, .p-nosotros {
             margin-left: 30px;
             margin-top: 10px;
-            font-family: 'Montserrat', sans-serif;
+            font-family: $type-serv;
+            img {
+                display: flex;
+                justify-content:center;
+                width: 80%;
+                background-color: $color-img-bg;
+                margin-bottom: 10px;
+                margin-left: 20px;
+                border-radius: 10px;
+
+            }
 
             .title-reiki, .title-tarot, .title-astrologia, .title-nosotros {
                 margin-top: 10px;

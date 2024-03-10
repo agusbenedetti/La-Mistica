@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&family=Raleway:wght@300&display=swap');
+@import "variables";
 
 footer {
 
-    background-color: black;
+    background-color: $color-header;
     padding-top: 20px;
     .redes-sociales {
         display: flex;
@@ -15,21 +16,21 @@ footer {
         list-style: none;
 
         .instagram-logo, .facebook-logo {
-            width: 30%;
-            background-color: black;
+            background-color: $color-header;
             padding-right: 10px;
             padding-left: 10px;
             display: flex;
             text-align: center;
             justify-content: space-between;
         }
+        
+
     }
 
     .copyright { 
         margin-top: 10px;
-        color: white;
-        font-family: 'Noto Serif', serif;
-        font-family: 'Open Sans', sans-serif;
+        color: $color-copy;
+        font-family: $type-copy;
         margin-bottom: 7px;
     }    
     

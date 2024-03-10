@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import "variables";
 
 #nosotros { 
     font-family: "Ubuntu", sans-serif;
     margin-top: 15px;
     margin-bottom: 10px;
     margin-left: 10px;
+
+    .p-nosotros {
+        margin-left: 30px;
+        margin-top: 10px;
+        font-family: $type-serv;
+    }
 }
